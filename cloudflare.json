@@ -8,7 +8,6 @@
     "config":{
         "details":{
             "Language": "English",
-            "Price": "Free",
             "Restrictions": "None",
             "TOS":"https://detectify.com/terms",
             "has_js": true
@@ -19,7 +18,8 @@
                 "132px": "./public/images/logo-132.png"
             },
             "detail_page" : [
-                "./public/images/example.png"
+                "./public/images/dashboard.png",
+                "./public/images/plans.png"
             ],
             "images" : [
                 "./public/images/counter.png"
@@ -27,26 +27,30 @@
         },
         "interface": [
             {
-                "type": "string",
-                "id": "food",
-                "name": "Favorite Food",
-                "description": "Please tell us your favorite food.",
-                "domain_request": true,
-                "private": true
-            },
-            {
                 "type": "select",
-                "id": "lottery",
-                "name": "Do you Lotto?",
-                "description": "Choose whether to buy a ticket",
+                "id": "display",
+                "name": "Detectify badge?",
+                "description": "Do you want to display our badge to prove your customers your site is secure?",
                 "options": [
                     {
-                        "label": "Yes, buy a ticket!",
-                        "value": "true"
+                        "label": "Yes, Bottom Right!",
+                        "value": "1"
                     },
                     {
-                        "label": "No, I am scared.",
-                        "value": ""
+                        "label": "Yes, Bottom Left!",
+                        "value": "2"
+                    },
+                    {
+                        "label": "Yes, Top Right!",
+                        "value": "3"
+                    },
+                    {
+                        "label": "Yes, Top Left!",
+                        "value": "4"
+                    },
+                    {
+                        "label": "No",
+                        "value": "0"
                     }
                 ]
             }
