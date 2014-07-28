@@ -20,41 +20,8 @@
             "detail_page" : [
                 "./public/images/dashboard.png",
                 "./public/images/plans.png"
-            ],
-            "images" : [
-                "./public/images/counter.png"
             ]
-        },
-        "interface": [
-            {
-                "type": "select",
-                "id": "display",
-                "name": "Detectify badge?",
-                "description": "Do you want to display our badge to prove your customers your site is secure?",
-                "options": [
-                    {
-                        "label": "Yes, Bottom Right!",
-                        "value": "1"
-                    },
-                    {
-                        "label": "Yes, Bottom Left!",
-                        "value": "2"
-                    },
-                    {
-                        "label": "Yes, Top Right!",
-                        "value": "3"
-                    },
-                    {
-                        "label": "Yes, Top Left!",
-                        "value": "4"
-                    },
-                    {
-                        "label": "No",
-                        "value": "0"
-                    }
-                ]
-            }
-        ]
+        }
     },
     "account": {
         "callback_url": "http://cloudflare-detectify.herokuapp.com/api",
