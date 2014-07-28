@@ -24,14 +24,12 @@ And a lot more!
 Simply connect to your dashboard and start the scan, that's it!  
 When the scan is finished you get to see the full report with all the vulnerabilities we found.
 
-![Detectify Dashboard](./public/images/dashboard.png "Detectify Dashboard")
-<!--/images/apps/detectify/dashboard.png-->
+![Detectify Dashboard](/images/apps/detectify/dashboard.png "Detectify Dashboard")
 
 
 ####Plans
 
-![Detectify Plans](./public/images/plans.png "Detectify Plans")
-<!--/images/apps/detectify/plans.png-->
+![Detectify Plans](/images/apps/detectify/plans.png "Detectify Plans")
 
 ####Support 
 For any question, please contact the [support](https://detectify.com/support).
