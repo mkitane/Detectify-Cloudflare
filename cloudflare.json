@@ -23,7 +23,7 @@
         }
     },
     "account": {
-        "callback_url": "http://cloudflare-detectify.herokuapp.com/api",
+        "callback_url": "https://detectify.com/integration/jago/cloudflare/v1/",
         "user_fields": ["email"]
     },
     "billing": {
