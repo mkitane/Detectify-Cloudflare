@@ -23,7 +23,7 @@
         }
     },
     "account": {
-        "callback_url": "https://detectify.com/integration/jago/cloudflare/v1/",
+        "callback_url": "https://dev.detectify.com/integration/jago/cloudflare/v1/",
         "user_fields": ["email"]
     },
     "billing": {
