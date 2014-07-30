@@ -2,7 +2,7 @@
     
     "name": "Detectify",
     "description": "Detectify is a SaaS based website security scanner that will help you stay safe. We audit your site’s security so you can focus on web development.",
-    "version": "0.2",
+    "version": "0.3",
     "category": "security monitoring",
     "config":{
         "details":{
@@ -23,7 +23,7 @@
         }
     },
     "account": {
-        "callback_url": "https://dev.detectify.com/integration/jago/cloudflare/v1/",
+        "callback_url": "https://detectify.com/integration/jago/cloudflare/v1/",
         "user_fields": ["email"]
     },
     "billing": {
