@@ -30,8 +30,8 @@
         "type": "zone",
         "plans":[
             {
-                "name" : "Free",
-                "price": "0.00"
+                "name" : "Developer plan",
+                "price": "30.00"
             }
         ]
     }
